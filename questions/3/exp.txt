@@ -1,0 +1,34 @@
+1.-> cd ~ moves you to your home directory, where you’re allowed to experiment without breaking civilization.
+echo ... > sample_data.txt creates the file and writes text into it.
+
+2.-> ln creates a hard link.
+Both filenames now point to the same inode.
+
+3.-> -s creates a symbolic link.
+This is basically a shortcut containing the path to the original file, not the data itself.
+
+4.-> -i shows inode numbers.
+-> -l gives detailed listing.
+
+5.-> sample_data.txt and sample_hard.txt will have the same inode number.
+Reason:- A hard link is just another name for the same inode on disk.
+
+->sample_soft.txt will have a different inode number.
+->Reason:- A symbolic link is a separate file that stores the path to the original file, not the data.
+
+6.-> ls -l shows permissions, owner, group, size, and timestamps.
+-> stat goes full detective mode: inode number, link count, access, modify, and change times.
+
+7.-> du shows disk usage.
+-> -s gives a summary.
+-> -h makes it readable by humans instead of machines with trust issues.
+
+8.-> -h makes file sizes readable.
+You now know exactly how much space your life choices are taking.
+
+9.-> Removing a symbolic link does not affect the original file.
+
+10.-> du -h ~ shows disk usage of all subdirectories.
+-> du -sh ~ shows total usage only.
+-> --max-depth=1 limits how deep Linux rambles.
+

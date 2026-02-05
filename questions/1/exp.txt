@@ -1,0 +1,12 @@
+1-> Displays current username and all groups.
+2-> Shows current directory and lists files in long format.
+3-> Creates file and writes the given line.
+4-> Displays number of characters in the file.
+5 -> first gives manual for the mkdir command
+-> we then use the -p mkdir command to make a parent directory
+6-> Lists the contents of your home directory. Files are sorted alphabetically by default.
+7-> Searches for the word admin inside log.txt and displays only the matching lines. No matches=no output.
+8-> Shows the running Linux kernel version.
+9 -> ping command did not exist. Installed a package
+-> The ping command was executed to test network connectivity using ICMP packets. The system returned “command not found,” indicating that the ping utility is not installed on the lab machine or is not available in the system’s PATH, which can occur on minimal or restricted Linux environments.
+10 -> This command displays how long the system has been running, the number of logged-in users, and the system load averages over the last 1, 5, and 15 minutes. Lower load values indicate the system is running efficiently.

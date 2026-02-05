@@ -1,0 +1,33 @@
+Finish assignment  before deadline.
+
+
+
+1-> mkdir means “make directory.”
+This creates a folder called documents in your current location, which should be your home directory.
+
+2-> cd documents moves you into the directory
+-> touch plan.txt creates an empty file called plan.txt
+
+3-> echo outputs text
+-> redirects that text into plan.txt
+This overwrites the file with your content.
+
+4-> ls -l shows long listing format
+-> you can see permissions, owner, group, size, date
+
+5-> cp copies files.
+You now have two identical files.
+
+6-> cd .. moves one level up
+-> mv renames directories (and files).
+
+7->created a subdirectory called archive.
+
+8->Moving the copied file into the archive directory.
+
+9-> -R means recursive
+->Shows the full directory tree starting from assigmentt_docs
+
+10-> realpath prints the absolute path, starting from /home/xDg16
+
+

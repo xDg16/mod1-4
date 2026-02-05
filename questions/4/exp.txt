@@ -1,0 +1,20 @@
+1. uptime command used
+2. ps shows processes
+  -u $USER filters only processes started by you
+3. Processes are sorted by CPU usage by default
+    press q to quit.
+4. sleep 300 runs for 5 minutes
+    & sends it to the background
+5. Higher nice value = lower priority
+    Normal users can only lower priority, not boost it
+6. Shows total, used, free, shared, buffers/cache memory.
+ This is where Linux reveals it’s hoarding RAM on purpose.
+7. df shows filesystem-level disk usage
+-h = human readable
+~ ensures it reports the correct filesystem
+8. Prints the path of your default shell, usually /bin/bash or /bin/zsh.
+9. uname -a prints kernel and system information
+    redirects output into a file
+   verify using cat system_report.txt
+10. ncdu is an interactive disk usage analyzer. It shows directory sizes in a navigable interface. You can move with arrow keys and see what’s eating disk space
+press q to quit.
